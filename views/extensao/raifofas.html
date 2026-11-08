@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAITec</title>
+<meta name="description" content="O RAITec é um grupo de extensão dedicado a projetos reais de automação, robótica e tecnologia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;650&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site-do-raitec/public/css/style-eventos.css">
+<link rel="stylesheet" href="/site-do-raitec/public/css/style-extensao.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+
+    <a href="index.html" class="brand">
+      <img src="/site-do-raitec/public/images/assets/logo-ciano.png" alt="RAITEC">
+    </a>
+
+    <nav class="mainnav menu">
+      <ul>
+        <li><a href="/site-do-raitec/views/eventos/index.html">Início</a></li>
+        <li><a href="index.html#quemsomos">Quem somos</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="/site-do-raitec/views/eventos/eventos.html">Eventos</a></li>
+        <li><a href="extensao.html" aria-current="page">Extensão</a></li>
+        <li><a href="#">Raipédia</a></li>
+        <li><a href="#">Processo seletivo</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <button class="navtoggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<section class="ext-hero ext-hero--center" style="--hero-img:url('../../public/images/assets/HERO')">
+  <div class="wrap hero-inner">
+    <h1>NOME</h1>
+    <p class="hero-sub">Descrição curta do NOME.</p>
+  </div>
+</section>
+
+<section class="ext-sobre" id="sobre">
+  <div class="wrap">
+    <div class="saiba-grid reveal-on-scroll">
+      <div>
+        <h2>SOBRE A ACCS</h2>
+      </div>
+      <div>
+        <p>Texto de apresentação do NOME: objetivo, público atendido, como o projeto funciona e quem participa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="visitas">
+  <div class="wrap">
+    <div class="section-head reveal-on-scroll">
+      <p class="eyebrow">Registro fotográfico</p>
+      <h2>Galeria de visitas</h2>
+    </div>
+
+    <div class="carousel ext-carousel ext-carousel--cards reveal-on-scroll" data-carousel data-autoplay="5000">
+      <div class="carousel-frame">
+        <button class="carousel-arrow" data-prev aria-label="Anterior">‹</button>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+            <!-- repita este bloco para cada foto -->
+            <div class="carousel-slide">
+              <figure class="ext-photo">
+                <img src="/site-do-raitec/public/images/assets/eventos-hero.jpg" alt="Descrição da foto" loading="lazy">
+                <figcaption>Legenda da foto.</figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-arrow" data-next aria-label="Próximo">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contato">
+  <div class="wrap">
+
+    <!-- LOGO -->
+    <a href="index.html" class="footer-brand">
+      <img src="/site-do-raitec/public/images/assets/logotipo-ciano.png" alt="RAITEC">
+    </a>
+
+    <!-- INFORMAÇÕES -->
+    <div class="footer-meta">
+      <p>© 2026 RAITEC — Todos os direitos reservados.</p>
+
+      <p>
+        Contato:
+        <a href="mailto:raitec@dee.ufc.br">
+          raitec@dee.ufc.br
+        </a>
+      </p>
+    </div>
+
+    <!-- REDES SOCIAIS -->
+    <div class="footer-social">
+
+      <!-- FACEBOOK -->
+      <a href="https://www.facebook.com/raitec.ufc/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.3-1.5 1.6-1.5H16.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4V10.5H8v3h2.4V21h3.1z"/>
+        </svg>
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/raitec.ufc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.3" cy="6.7" r="1"/>
+        </svg>
+      </a>
+
+      <!-- YOUTUBE -->
+      <a href="https://www.youtube.com/raitec.ufc/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M21.6 7.6a3 3 0 0 0-2.1-2.1C17.7 5 12 5 12 5s-5.7 0-7.5.5a3 3 0 0 0-2.1 2.1C2 9.4 2 12 2 12s0 2.6.4 4.4a3 3 0 0 0 2.1 2.1C6.3 19 12 19 12 19s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1C22 14.6 22 12 22 12s0-2.6-.4-4.4zM10 15.2V8.8L15.8 12z"/>
+        </svg>
+      </a>
+
+      <!-- LINKEDIN -->
+      <a href="https://www.linkedin.com/school/raitec.ufc/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/>
+        </svg>
+      </a>
+
+    </div>
+
+  </div>
+</footer>
+
+<script src="/site-do-raitec/public/css/script-eventos.js"></script>
+<script src="/site-do-raitec/public/css/script-extensao.js"></script>
+</body>
+</html>
